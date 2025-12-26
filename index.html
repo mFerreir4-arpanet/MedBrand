@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Médica - Excelência em Cuidados de Saúde</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Belleza&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Fixo -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Dr. [Nome do Médico]</h1>
+                </div>
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="#inicio" class="nav-link">Início</a></li>
+                        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                        <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                        <li><a href="#teleatendimento" class="nav-link">Teleatendimento</a></li>
+                        <li><a href="#home-care" class="nav-link">Home Care</a></li>
+                        <li><a href="#paletas" class="nav-link">Paletas</a></li>
+                        <li><a href="#contato" class="nav-link">Contato</a></li>
+                    </ul>
+                </nav>
+                <a href="#contato" class="btn btn-cta-header">Agendar Consulta</a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-name">Dr. [Nome do Médico]</h1>
+                <h2 class="hero-specialty">Especialidade</h2>
+                <p class="hero-subtitle">Tenha um único médico como sua referência em todas as fases da vida.<br>Prevenção, longevidade e acompanhamento contínuo, onde você estiver.</p>
+                <div class="hero-buttons">
+                    <a href="#contato" class="btn btn-primary">AGENDE SUA CONSULTA ONLINE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Paletas de Cores -->
+    <section class="palettes" id="paletas">
+        <div class="container">
+            <h2 class="section-title">Escolha o estilo visual da sua clínica</h2>
+            <p class="section-subtitle">Clique em uma paleta para visualizar como ela transforma toda a identidade visual do site. Cada paleta transmite uma sensação diferente e pode ser adaptada conforme o perfil da sua clínica. O visual impacta diretamente a percepção do paciente sobre a credibilidade e profissionalismo da clínica.</p>
+            <div class="palettes-grid">
+                <div class="palette-card" data-palette="azul-medico">
+                    <div class="palette-preview">
+                        <div class="color-swatch" style="background-color: #0A2540;"></div>
+                        <div class="color-swatch" style="background-color: #E6F0FA;"></div>
+                        <div class="color-swatch" style="background-color: #FFFFFF;"></div>
+                        <div class="color-swatch" style="background-color: #F5F7FA;"></div>
+                    </div>
+                    <h3>Azul Médico Premium</h3>
+                    <p>Transmite confiança, profissionalismo e seriedade. Ideal para clínicas que buscam destacar autoridade médica e credibilidade.</p>
+                    <button class="btn btn-palette">Aplicar Paleta</button>
+                </div>
+                <div class="palette-card" data-palette="verde-saude">
+                    <div class="palette-preview">
+                        <div class="color-swatch" style="background-color: #0F3D2E;"></div>
+                        <div class="color-swatch" style="background-color: #E8F5F0;"></div>
+                        <div class="color-swatch" style="background-color: #FFFFFF;"></div>
+                        <div class="color-swatch" style="background-color: #F4F6F5;"></div>
+                    </div>
+                    <h3>Verde Saúde Moderna</h3>
+                    <p>Associado à saúde, bem-estar e natureza. Perfeito para clínicas que valorizam abordagens integrativas e cuidados preventivos.</p>
+                    <button class="btn btn-palette">Aplicar Paleta</button>
+                </div>
+                <div class="palette-card" data-palette="cinza-elegante">
+                    <div class="palette-preview">
+                        <div class="color-swatch" style="background-color: #2B2E34;"></div>
+                        <div class="color-swatch" style="background-color: #EDEDED;"></div>
+                        <div class="color-swatch" style="background-color: #FFFFFF;"></div>
+                        <div class="color-swatch" style="background-color: #3A7CA5;"></div>
+                    </div>
+                    <h3>Cinza Elegante Profissional</h3>
+                    <p>Sofisticação e minimalismo. Ideal para clínicas premium que buscam um visual refinado e contemporâneo.</p>
+                    <button class="btn btn-palette">Aplicar Paleta</button>
+                </div>
+                <div class="palette-card" data-palette="azul-dourado">
+                    <div class="palette-preview">
+                        <div class="color-swatch" style="background-color: #0B1F36;"></div>
+                        <div class="color-swatch" style="background-color: #C9A24D;"></div>
+                        <div class="color-swatch" style="background-color: #FFFFFF;"></div>
+                        <div class="color-swatch" style="background-color: #F2F2F2;"></div>
+                    </div>
+                    <h3>Azul + Dourado Sofisticado</h3>
+                    <p>Elegância, prestígio e exclusividade. Indicado para clínicas de alto padrão que desejam transmitir excelência e sofisticação.</p>
+                    <button class="btn btn-palette">Aplicar Paleta</button>
+                </div>
+                <div class="palette-card" data-palette="roxo-clinico">
+                    <div class="palette-preview">
+                        <div class="color-swatch" style="background-color: #4A148C;"></div>
+                        <div class="color-swatch" style="background-color: #F3E5F5;"></div>
+                        <div class="color-swatch" style="background-color: #FFFFFF;"></div>
+                        <div class="color-swatch" style="background-color: #F8F5F9;"></div>
+                    </div>
+                    <h3>Roxo Clínico </h3>
+                    <p>Inovação, tecnologia e especialização. Ideal para áreas como saúde mental, diagnósticos avançados e clínicas especializadas.</p>
+                    <button class="btn btn-palette">Aplicar Paleta</button>
+                </div>
+                <div class="palette-card" data-palette="bege-verde-oliva">
+                    <div class="palette-preview">
+                        <div class="color-swatch" style="background-color: #556B2F;"></div>
+                        <div class="color-swatch" style="background-color: #F5F5DC;"></div>
+                        <div class="color-swatch" style="background-color: #FFFFFF;"></div>
+                        <div class="color-swatch" style="background-color: #FAF9F6;"></div>
+                    </div>
+                    <h3>Bege + Verde Oliva Natural</h3>
+                    <p>Acolhimento, proximidade e humanização. Excelente para clínicas de família, geriatria e medicina preventiva com foco humanizado.</p>
+                    <button class="btn btn-palette">Aplicar Paleta</button>
+                </div>
+                <div class="palette-card" data-palette="azul-claro-cinza">
+                    <div class="palette-preview">
+                        <div class="color-swatch" style="background-color: #4A90E2;"></div>
+                        <div class="color-swatch" style="background-color: #F5F7FA;"></div>
+                        <div class="color-swatch" style="background-color: #FFFFFF;"></div>
+                        <div class="color-swatch" style="background-color: #F8F9FA;"></div>
+                    </div>
+                    <h3>Azul Claro + Cinza Neutro</h3>
+                    <p>Leveza, acessibilidade e clareza visual. Perfeito para clínicas que buscam transmitir modernidade e facilidade de acesso aos cuidados.</p>
+                    <button class="btn btn-palette">Aplicar Paleta</button>
+                </div>
+                <div class="palette-card" data-palette="terracota-branco">
+                    <div class="palette-preview">
+                        <div class="color-swatch" style="background-color: #C85A19;"></div>
+                        <div class="color-swatch" style="background-color: #FFF8F5;"></div>
+                        <div class="color-swatch" style="background-color: #FFFFFF;"></div>
+                        <div class="color-swatch" style="background-color: #FDF5F0;"></div>
+                    </div>
+                    <h3>Terracota + Branco Clínico</h3>
+                    <p>Humanização moderna sem perder profissionalismo. Ideal para clínicas que valorizam o acolhimento com visual contemporâneo e acolhedor.</p>
+                    <button class="btn btn-palette">Aplicar Paleta</button>
+                </div>
+                <div class="palette-card" data-palette="azul-petroleo">
+                    <div class="palette-preview">
+                        <div class="color-swatch" style="background-color: #1B4D3E;"></div>
+                        <div class="color-swatch" style="background-color: #E8F4F1;"></div>
+                        <div class="color-swatch" style="background-color: #FFFFFF;"></div>
+                        <div class="color-swatch" style="background-color: #F0F7F5;"></div>
+                    </div>
+                    <h3>Azul Petróleo Moderno</h3>
+                    <p>Autoridade, estabilidade e sofisticação discreta. Excelente escolha para clínicas que buscam transmitir confiança e seriedade profissional.</p>
+                    <button class="btn btn-palette">Aplicar Paleta</button>
+                </div>
+                <div class="palette-card" data-palette="branco-cinza-minimal">
+                    <div class="palette-preview">
+                        <div class="color-swatch" style="background-color: #2C2C2C;"></div>
+                        <div class="color-swatch" style="background-color: #F8F8F8;"></div>
+                        <div class="color-swatch" style="background-color: #FFFFFF;"></div>
+                        <div class="color-swatch" style="background-color: #FAFAFA;"></div>
+                    </div>
+                    <h3>Branco + Cinza Minimal</h3>
+                    <p>Extremo foco em organização, pureza visual e leitura confortável. Ideal para clínicas que priorizam clareza e simplicidade elegante.</p>
+                    <button class="btn btn-palette">Aplicar Paleta</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section class="about" id="sobre">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Sobre o Médico</h2>
+                    <h3 class="about-subtitle">Uma médica de família para caminhar com você.</h3>
+                    <p class="about-description">
+                        Sou o Dr. [Nome], Médico de Família e Comunidade, focado em cuidar da sua saúde de forma integral, por telemedicina.
+                    </p>
+                    <p class="about-description">
+                        Sou movido por uma vontade genuína de cuidar da saúde das pessoas em todas as suas dimensões. Acredito que a verdadeira medicina nasce quando conseguimos enxergar o ser humano por inteiro.
+                    </p>
+                    <p class="about-description">
+                        Ver cada paciente vivendo com equilíbrio, qualidade de vida e longevidade é o que sustenta meu propósito e dá direção ao meu trabalho. Tenho uma relação profunda com o que é simples, natural e essencial, e isso molda meu olhar para a vida e para a medicina.
+                    </p>
+                    <a href="#servicos" class="btn btn-secondary">Conheça meu jeito de cuidar</a>
+                </div>
+                <div class="about-image">
+                    <div class="placeholder-image">
+                        <span>Foto do Médico</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Estatísticas -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">+ 5</div>
+                    <div class="stat-label">Anos de Experiência</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🛡️</div>
+                    <div class="stat-label">Prevenção em primeiro lugar</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">📅</div>
+                    <div class="stat-label">Acompanhamento próximo a longo prazo</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🌿</div>
+                    <div class="stat-label">Visão integral: corpo, mente e rotina</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">💬</div>
+                    <div class="stat-label">Comunicação simples e orientações práticas para o dia a dia</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carrossel 1 -->
+    <section class="carousel-section">
+        <div class="carousel-container">
+            <div class="carousel-wrapper">
+                <div class="carousel-slide active">
+                    <div class="carousel-image" style="background-image: url('plano de fundo.avif');"></div>
+                    <div class="carousel-overlay"></div>
+                </div>
+                <div class="carousel-slide">
+                    <div class="carousel-image" style="background-image: url('plano de fundo.avif');"></div>
+                    <div class="carousel-overlay"></div>
+                </div>
+                <div class="carousel-slide">
+                    <div class="carousel-image" style="background-image: url('plano de fundo.avif');"></div>
+                    <div class="carousel-overlay"></div>
+                </div>
+            </div>
+            <button class="carousel-btn carousel-prev" aria-label="Slide anterior">‹</button>
+            <button class="carousel-btn carousel-next" aria-label="Próximo slide">›</button>
+            <div class="carousel-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Como Funciona o Atendimento -->
+    <section class="services" id="servicos">
+        <div class="container">
+            <h2 class="section-title">Como funciona o atendimento</h2>
+            <p class="section-subtitle">Medicina de Família e Comunidade, focados em prevenção, acompanhamento e qualidade de vida.</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Acompanhamento de rotina</h3>
+                    <p>Consultas periódicas para revisar exames, ajustar condutas e organizar sua saúde ao longo do tempo.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Cuidado de doenças crônicas</h3>
+                    <p>Suporte contínuo para hipertensão, diabetes e outras condições, com foco em bem-estar e prevenção de complicações.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Saúde mental e emocional</h3>
+                    <p>Escuta qualificada, orientação e seguimento em questões como ansiedade, estresse e sono.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Prevenção e check-ups</h3>
+                    <p>Avaliação de riscos, rastreamentos no tempo certo e orientações personalizadas de estilo de vida.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carrossel 2 -->
+    <section class="carousel-section">
+        <div class="carousel-container">
+            <div class="carousel-wrapper">
+                <div class="carousel-slide active">
+                    <div class="carousel-image" style="background-image: url('plano de fundo.avif');"></div>
+                    <div class="carousel-overlay"></div>
+                </div>
+                <div class="carousel-slide">
+                    <div class="carousel-image" style="background-image: url('plano de fundo.avif');"></div>
+                    <div class="carousel-overlay"></div>
+                </div>
+                <div class="carousel-slide">
+                    <div class="carousel-image" style="background-image: url('plano de fundo.avif');"></div>
+                    <div class="carousel-overlay"></div>
+                </div>
+            </div>
+            <button class="carousel-btn carousel-prev" aria-label="Slide anterior">‹</button>
+            <button class="carousel-btn carousel-next" aria-label="Próximo slide">›</button>
+            <div class="carousel-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Teleatendimento -->
+    <section class="telemedicine" id="teleatendimento">
+        <div class="container">
+            <div class="telemedicine-content">
+                <div class="telemedicine-text">
+                    <h2 class="section-title">Consultas online com cuidado e clareza em cada encontro.</h2>
+                    <p class="telemedicine-description">
+                        Nas consultas por telemedicina, você é atendido em um ambiente seguro, com tempo para contar sua história, tirar dúvidas e construir, junto com a médica, um plano de cuidado que faça sentido para a sua rotina.
+                    </p>
+                    <div class="telemedicine-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">✓</div>
+                            <p>Atendimento online em plataforma estável, com horário reservado só para você.</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">✓</div>
+                            <p>Escuta qualificada e olhar integral para corpo, mente, família, trabalho e hábitos.</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">✓</div>
+                            <p>Plano de cuidado individualizado, com orientações práticas, receitas e exames quando necessários.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Home Care -->
+    <section class="home-care" id="home-care">
+        <div class="container">
+            <h2 class="section-title">Onde eu atendo?</h2>
+            <p class="section-subtitle">
+                Realizo atendimentos domiciliares em [Cidade]-[Estado] e região. Este serviço é pensado para garantir que você tenha a atenção da Medicina de Família sem precisar se deslocar.
+            </p>
+        </div>
+    </section>
+
+    <!-- Seção Para Quem é Ideal -->
+    <section class="ideal-for" id="ideal">
+        <div class="container">
+            <h2 class="section-title">Para quem é ideal</h2>
+            <div class="ideal-grid">
+                <div class="ideal-card">
+                    <h3>Pessoas que buscam prevenção</h3>
+                    <p>Quem quer cuidar da saúde de forma proativa e preventiva.</p>
+                </div>
+                <div class="ideal-card">
+                    <h3>Pacientes com doenças crônicas</h3>
+                    <p>Quem precisa de acompanhamento contínuo para hipertensão, diabetes e outras condições.</p>
+                </div>
+                <div class="ideal-card">
+                    <h3>Famílias inteiras</h3>
+                    <p>Quem busca uma médica de referência para toda a família, em todas as idades.</p>
+                </div>
+                <div class="ideal-card">
+                    <h3>Quem valoriza cuidado integral</h3>
+                    <p>Pessoas que buscam uma visão completa da saúde, considerando corpo, mente e rotina.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção FAQ -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">Perguntas Frequentes</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3 class="faq-question">O que a Dra Luiza faz como médica de família?</h3>
+                    <p class="faq-answer">Eu acompanho você em diferentes fases da vida, oferecendo cuidado integral, prevenção, manejo de doenças crônicas (como hipertensão e diabetes), saúde mental, saúde da mulher e organização da sua rotina de saúde. Eu sou a sua referência estável, sempre com atenção centrada em quem você é e no que é importante para a sua vida.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Em quais situações devo procurar você?</h3>
+                    <p class="faq-answer">Você pode me procurar para acompanhamento de rotina, prevenção, check-ups, manejo de doenças crônicas, questões de saúde mental, saúde da mulher e organização geral da sua saúde. Sou sua médica de referência para todas as fases da vida.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Como funciona o acompanhamento ao longo do tempo?</h3>
+                    <p class="faq-answer">O acompanhamento é contínuo e personalizado. Fazemos consultas periódicas para revisar sua saúde, ajustar condutas, acompanhar exames e construir juntos um plano de cuidado que se adapte à sua rotina e necessidades.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Depoimentos -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Depoimentos</h2>
+            <p class="section-subtitle">A opinião dos nossos pacientes é muito importante para nós</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Atendimento excelente, profissionais muito competentes e ambiente acolhedor. Recomendo!"</p>
+                    <p class="testimonial-author">— Maria Silva</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Fui muito bem atendida, o médico foi atencioso e explicou tudo com clareza. Sinto-me em boas mãos."</p>
+                    <p class="testimonial-author">— Ana Costa</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Clínica moderna, equipamentos de última geração e equipe muito profissional. Superou minhas expectativas."</p>
+                    <p class="testimonial-author">— João Santos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section class="contact" id="contato">
+        <div class="container">
+            <div class="contact-intro">
+                <h2 class="section-title">Por que agendar comigo?</h2>
+                <p class="section-subtitle">Escolha o melhor momento para cuidar da sua saúde.</p>
+                <p class="contact-description">
+                    Com a [Nome], você tem uma médica de família acompanhando sua saúde de forma integral, preventiva e contínua, em todas as fases da vida. Preencha os dados ao lado para agendar sua consulta e organizar seus próximos passos em saúde.
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div class="info-text">
+                            <h4>Endereço</h4>
+                            <p>Av. Paulista, 1000 - Bela Vista<br>São Paulo - SP, 01310-100</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div class="info-text">
+                            <h4>Telefone / WhatsApp</h4>
+                            <p>(64) 9 9661-5405</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📧</div>
+                        <div class="info-text">
+                            <h4>E-mail</h4>
+                            <p>contato@clinicamedica.com.br</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">🕒</div>
+                        <div class="info-text">
+                            <h4>Horários de Atendimento</h4>
+                            <p>Segunda a Sexta: 8h às 18h<br>Sábado: 8h às 12h</p>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/5564996615405" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                        💬 Falar no WhatsApp
+                    </a>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="motivo">Motivo do contato? *</label>
+                            <select id="motivo" name="motivo" required>
+                                <option value="">Selecione o motivo do contato</option>
+                                <option value="primeira-consulta">Primeira consulta em Medicina de Família</option>
+                                <option value="retorno">Consulta de retorno</option>
+                                <option value="duvidas">Dúvidas sobre atendimento</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Nome completo: *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefone / WhatsApp: *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="preferencia">Preferência de dia e horário para contato?</label>
+                            <input type="text" id="preferencia" name="preferencia" placeholder="Ex: Segunda-feira, manhã">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Comentário ou Mensagem</label>
+                            <textarea id="message" name="message" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Serviços</h4>
+                    <ul class="footer-links">
+                        <li>Acompanhamento em Medicina de Família</li>
+                        <li>Doenças crônicas (hipertensão, diabetes etc.)</li>
+                        <li>Saúde da mulher e saúde mental</li>
+                        <li>Prevenção, check-ups e longevidade</li>
+                    </ul>
+                </div>
+                <div class="footer-section footer-center">
+                    <h3>Dr. [Nome do Médico]</h3>
+                    <p>Medicina de Família e Comunidade</p>
+                    <div class="social-links-footer">
+                        <a href="#" class="social-link-footer" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link-footer" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link-footer" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>Email: contato@medico.com.br</p>
+                    <p>Telefone: (64) 9 9661-5405</p>
+                    <p>Atendimentos realizados por telemedicina para todo o Brasil</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright-dev">
+                    Copyright © 2025 Dr. | Todos os direitos reservados.<br>
+                    Desenvolvido por: <strong>MICAEL MOURA</strong>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Flutuante do WhatsApp -->
+    <a href="https://wa.me/5564996615405" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Fale conosco no WhatsApp">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 0C7.164 0 0 7.164 0 16c0 2.824.736 5.488 2.024 7.792L0 32l8.416-2.208A15.935 15.935 0 0 0 16 32c8.836 0 16-7.164 16-16S24.836 0 16 0z" fill="#25D366"/>
+            <path d="M25.38 22.62c-.356.997-1.769 1.828-2.892 2.065-.752.164-1.732.296-5.032-.996-4.228-1.656-6.956-5.952-7.164-6.224-.208-.272-1.696-2.252-1.696-4.296 0-2.044 1.076-3.048 1.456-3.464.38-.416.832-.52 1.108-.52.276 0 .552.004.796.016.256.012.596-.096.932.712.344.828 1.168 2.844 1.268 3.048.1.204.168.444.032.716-.136.272-.204.444-.408.68-.204.236-.428.528-.612.708-.204.2-.416.416-.18.816.236.4 1.052 1.732 2.256 2.808 1.548 1.388 2.852 1.82 3.256 2.024.404.204.636.172.872-.104.236-.276.996-1.164 1.264-1.564.268-.4.536-.336.904-.2.368.136 2.336 1.1 2.736 1.3.4.2.668.3.764.464.096.164.096.948-.26 1.944z" fill="white"/>
+        </svg>
+        <span class="whatsapp-text">WhatsApp</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
